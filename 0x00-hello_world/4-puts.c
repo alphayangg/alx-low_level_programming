@@ -1,17 +1,9 @@
 #include <stdio.h>
 /**
- * main -prits  that print "programming is like buildin   g a multilingual puzzle,followed by a newline,
- * Return:Always 0
+ * main - A  program that print a line with puts functions
+ * Return: 0 (success)
  */
-  int main(void)
-
+int main(void)
 {
-
-
-   puts("/"Programming is like building a multilingual    puzzle");
-
-   return: (o);
-
-
-}
-
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
