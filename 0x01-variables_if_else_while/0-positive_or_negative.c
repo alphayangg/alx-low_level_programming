@@ -2,15 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main -print if number is positive , zero or negative
- * Return: Always(sucess)
+ * main -main function to generate a random number
+ * Return: Always 0 (success)
 */
 int main (void)
 {
 	int n;
 
 	srand(time (0));
-	n = rand () -RAND_MAX /2;
+	n = rand () -RAND_MAX/ 2;
+	
 	if (n > 0)
 	{
 	printf ("%d is positive\n", n);
