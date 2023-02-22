@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha -check forr alphabetic character
+ * _isalpha -check fori alphabetic character
  * @c: The character to be checked
  * Return:1 for alphabetic character or 0 for anything else*/
 int _isalpha(int c)
