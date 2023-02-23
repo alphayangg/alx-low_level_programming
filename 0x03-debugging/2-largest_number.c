@@ -7,25 +7,23 @@ gest of 3 numbers
 * @c: third integer
 * Return: largest number
 */
-
 int largest number(int a, int b, in
 t c)
 {
+	int largest;
 
-int largest;
-if (a > b && b > c)
-{
-largest = a;
-}
-else if (b > a && a > c)
-{
-largest = b;
-}
-else 
-{
-largest = c;
-}
-
-return (largest);
+	if (a > b && b > c)
+	{
+	largest = a;
+	}
+	else if (b > a && a > c)
+	{
+	largest = b;
+	}
+	else
+	{
+	largest = c;
+	}
+	return (largest);
 }
 
