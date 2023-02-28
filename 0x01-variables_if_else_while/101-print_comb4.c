@@ -1,14 +1,32 @@
-
 #include <stdio.h>
-#include <stdlib.h>                               /**                                                * main - main block
- * Description: Write a program that prints all po
-ssible differnt
- * Return: 0
- */                                               int main(void)
+/**
+ * main - prints all possible different combinations of three digits
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-        int c;                                            int d;                                            int e = 0;                                
-        while (e < 0)                                     {                                                         d = 0;                                            while (d < 10)
-                {                                                         c = 0;
-                        while (c < 10)
-                        {                                                         if (c != d && d !=
- e && e < d && d < c)                                                             {                 @@@
+	int n, m, l;
+
+	for (n = 48; n < 58; n++)
+	{
+		for (m = 49; m < 58; m++)
+		{
+			for (l = 50; l < 58; l++)
+			{
+				if (l > m && m > n)
+				{
+					putchar(n);
+					putchar(m);
+					putchar(l);
+					if (n != 55 || m != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
+}
