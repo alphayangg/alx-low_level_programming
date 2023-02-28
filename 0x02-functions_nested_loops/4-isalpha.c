@@ -1,24 +1,20 @@
 #include "main.h"
 /**
- * print_sign - prints the sign of a number
- * @n: the int to check
- * Return: 1 and prints + if n is greater than zero
- * 0 and prints 0 if n is zero
- * -1 and prints - if n is less than zero
+ * main - check the code.
+ * Return: Always 0.
  */
-int print_sign(int n)
+int main(void)
 {
-	if (n > 0)
-	{
-		_putchar('+');
-		return (1);
-	} else if (n == 0)
-	{
-		_putchar(48);
-		return (0);
-	} else if (n < 0)
-	{
-		_putchar('-');
-	}
-	return (-1);
+	int r;
+
+	r = _isalpha('H');
+	_putchar(r + '0');
+	r = _isalpha('o');
+	_putchar(r + '0');
+	r = _isalpha(108);
+	_putchar(r + '0');
+	r = _isalpha(';');
+	_putchar(r + '0');
+	_putchar('\n');
+	return (0);
 }
